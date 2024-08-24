@@ -1,0 +1,60 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  background-color: black;
+}
+.button, .zero-button{
+  color: #98becf;
+  padding: 14px;
+  margin: 0 3px;
+  width: 63px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgba(44,51,51,255);
+  font-weight: 900;
+  font-size: large;
+}
+
+.ac-button{
+  background-color: rgb(145, 55, 55);
+  padding: 14px;
+  margin: 0 3px;
+  width: 63px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgba(44,51,51,255);
+  font-weight: 900;
+  font-size: large;
+}
+
+.casio{
+  margin: 10px 0 0px 115px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.zero-button{
+  width: 138px;
+}
+.button:active, .zero-button:active, .ac-button:active {
+  transform: translateY(2px);
+}
+.row{
+  margin: 0 0 15px 0;
+}
+.row input{
+  color: white;
+  margin: 18px 8px;
+  padding: 60px 0px 0px 10px;
+  font-size: 22px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  height: 120px;
+}
+
